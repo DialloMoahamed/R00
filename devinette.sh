@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Variable pour enregistrer le score
+# fichier pour enregistrer le score
 SCORE=0
 
 # Génère un nombre aléatoire entre 1 et 100
