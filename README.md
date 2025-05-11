@@ -10,7 +10,7 @@ Ce script Bash est un petit **jeu de devinettes** dans lequel le joueur doit tro
 - Invite l'utilisateur à deviner le nombre.
 - Donne un indice "plus petit" ou "plus grand" à chaque tentative.
 - Compte le nombre d’essais.
-- Enregistre le score (nom du joueur + nombre d’essais) dans un fichier.
+- Enregistre le score (nom du joueur + nombre d’essais) dans un fichier `score.txt`.
 - Permet de quitter le jeu à tout moment avec `exit`.
 - Affiche l’historique des scores à la fin de chaque partie.
 

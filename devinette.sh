@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # fichier pour enregistrer le score
-SCORE=0
+SCORE='score.txt'
 
 # Génère un nombre aléatoire entre 1 et 100
 SECRET_NUMBER=$(( RANDOM % 100 + 1 ))
