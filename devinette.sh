@@ -25,6 +25,13 @@ while true; do
         continue
     fi
 
+    # Validation de l'entrée (doit être un nombre entier compris entre 1 et 100)
+    if ((GUESS > 100 || GUESS < 1)); then
+        echo "Erreur : veuillez entrer un nombre entier compris entre 1 et 100"
+        continue
+    fi
+
+    
     ((TRIES++))
 
     if (( GUESS > SECRET_NUMBER )); then
